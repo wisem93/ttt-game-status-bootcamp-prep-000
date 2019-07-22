@@ -40,6 +40,7 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
+<<<<<<< HEAD
     # board = ["X","X","X",""]
     win_combination = won?(board) # => [0,1,2]
     
@@ -54,3 +55,14 @@ WIN_COMBINATIONS = [
   
   
   
+=======
+    # if (won?(board))
+      
+      if (board[0] == "X" && board[1] == "X" && board[2] == "X")
+        return "X"
+      else 
+        return "O"
+      end
+    # end
+  end
+>>>>>>> 8e7c22894ea6862bc2217a0a61ccf6f2c09d7647
